@@ -3,7 +3,7 @@
 // $mysql_user = "root";
 // $mysql_password = "";
 // $mysql_database = "db_shopping";
-$mysql_hostname = " remotemysql.com";
+$mysql_hostname = "remotemysql.com";
 $mysql_user = "vvUhx6iGfj";
 $mysql_password = "f4VccaNSzz";
 $mysql_database = "vvUhx6iGfj";
