@@ -22,7 +22,7 @@ header('location:wishlist.php');
 
 ?>
 
-<?php  include("./includes/header.php");  ?> 
+<?php  include("./includes/header.php"); ?> 
 <div class="container">
 <!-- ========================= SECTION MAIN  ========================= -->
 <section class="section-main padding-y">
