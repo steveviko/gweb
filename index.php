@@ -117,7 +117,7 @@ header('location:wishlist.php');
 			    <h6 class="card-title">Men's Jewellery </h6>
 			    <a href="sex.php?mid=<?php echo htmlentities($row['id']);?>" class="btn btn-secondary btn-sm"> View now </a>
 			  </div> 
-			  <img src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" height="80" class="img-bg">
+			  <img src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" height="80" class="img-bg">
 				<?php }  ?>
 			</div>
 
@@ -136,7 +136,7 @@ header('location:wishlist.php');
 			    <h6 class="card-title">Women's Jewellery</h6>
 			    <a href="sex.php?wid=<?php echo htmlentities($row['id']);?>" class="btn btn-secondary btn-sm"> View now </a>
 			  </div> 
-			  <img src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" height="80" class="img-bg">
+			  <img src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" height="80" class="img-bg">
 
 				<?php }  ?>
 			</div>
@@ -199,7 +199,7 @@ header('location:wishlist.php');
 	?>
 		<figure class="card-product-grid card-sm" >
 			<a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="img-wrap"> 
-			<img  src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage2']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>">
+			<img  src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage2']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>">
 		</a>
 		<div class="text-wrap p-3">
 			<a href="#" class="title text-truncate"><?php echo htmlentities($row['productName']);?></a>
@@ -223,7 +223,7 @@ header('location:wishlist.php');
 	?>
 		<figure class="card-product-grid card-sm" >
 			<a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="img-wrap"> 
-			<img  src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage3']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" >
+			<img  src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage3']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" >
 		</a>
 		<div class="text-wrap p-3">
 			<a href="#" class="title text-truncate"><?php echo htmlentities($row['productName']);?></a>
@@ -247,7 +247,7 @@ header('location:wishlist.php');
 	?>
 		<figure class="card-product-grid card-sm" >
 			<a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="img-wrap"> 
-			<img  src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage2']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" >
+			<img  src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage2']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>" >
 		</a>
 		<div class="text-wrap p-3">
 			<a href="#" class="title text-truncate"><?php echo htmlentities($row['productName']);?></a>
@@ -272,7 +272,7 @@ header('location:wishlist.php');
 	?>
 		<figure class="card-product-grid card-sm" >
 			<a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="img-wrap"> 
-			<img  src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>">
+			<img  src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>">
 		</a>
 		<div class="text-wrap p-3">
 			<a href="#" class="title text-truncate"><?php echo htmlentities($row['productName']);?></a>
@@ -296,7 +296,7 @@ header('location:wishlist.php');
 	?>
 		<figure class="card-product-grid card-sm" >
 			<a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="img-wrap"> 
-			<img  src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>">
+			<img  src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>">
 		</a>
 		<div class="text-wrap p-3">
 			<a href="#" class="title text-truncate"><?php echo htmlentities($row['productName']);?></a>
@@ -348,7 +348,7 @@ header('location:wishlist.php');
 <a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="item"> 
 	<div class="card-body">
 		<h6 class="title"><?php echo htmlentities($row['productName']);?>  </h6>
-		<img class="img-sm float-right"  src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>"> 
+		<img class="img-sm float-right"  src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>"> 
         <p class="text-muted">Ugx, <?php echo htmlentities($row['productPrice']);?>/=</p>
         </a> <form action="" class="form_submit" >
             <input type="hidden" class="pid" value=" <?php echo htmlentities($row['id']);?>">
@@ -413,7 +413,7 @@ header('location:wishlist.php');
 <a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="item"> 
 	<div class="card-body">
 		<h6 class="title"><?php echo htmlentities($row['productName']);?>  </h6>
-		<img class="img-sm float-right" src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>"> 
+		<img class="img-sm float-right" src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>"> 
         <p class="text-muted">Ugx, <?php echo htmlentities($row['productPrice']);?>/=</p>
         </a> <form action="" class="form_submit" >
             <input type="hidden" class="pid" value=" <?php echo htmlentities($row['id']);?>">
@@ -532,7 +532,7 @@ Full refund if you do not get your product delivered.</p>
 	<div class="col-xl-2 col-lg-3 col-md-4 col-6">
    
 		<div href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="card card-sm card-product-grid">
-			<a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="img-wrap"> <img src="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>"> </a>
+			<a href="product_details.php?pid=<?php echo htmlentities($row['id']);?>" class="img-wrap"> <img src="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="Admin/productimages/<?php echo htmlentities($row['productName']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="<?php echo htmlentities($row['productName']);?>"> </a>
 			<figcaption class="info-wrap">
 				<a href="#" class="title"><?php echo htmlentities($row['productName']);?></a>
 				<div class="price mt-1">Ugx,<?php echo htmlentities($row['productPrice']);?>/=</div> <!-- price-wrap.// -->
